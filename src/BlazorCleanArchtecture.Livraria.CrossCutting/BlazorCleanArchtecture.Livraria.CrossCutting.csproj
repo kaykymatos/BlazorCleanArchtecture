@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorCleanArchtecture.Livraria.Application\BlazorCleanArchtecture.Livraria.Application.csproj" />
+    <ProjectReference Include="..\BlazorCleanArchtecture.Livraria.Domain\BlazorCleanArchtecture.Livraria.Domain.csproj" />
+    <ProjectReference Include="..\BlazorCleanArchtecture.Livraria.Infrastructure\BlazorCleanArchtecture.Livraria.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
